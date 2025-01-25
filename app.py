@@ -14,10 +14,10 @@ selected_page = sidebar_navigation()
 if selected_page == "Home":
     from paths import home
     home.show()
-elif selected_page == "Analysis":
+if selected_page == "Analysis":
     from paths import analysis
     analysis.show()
-elif selected_page == "About":
+if selected_page == "About":
     from paths import about
     about.show()
 
