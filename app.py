@@ -7,13 +7,7 @@ import streamlit as st
 # Oculta o menu superior e o rodapé do Streamlit
 st.set_page_config(page_title="Animes Choice Based on Data", page_icon="📊", layout="wide", initial_sidebar_state="collapsed")
 
-hide_menu_style = """
-    <style>
-    #MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
-    header {visibility: hidden;}
-    </style>
-    """
+
 st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 # Load sidebar for navigation
