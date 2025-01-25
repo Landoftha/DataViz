@@ -7,9 +7,6 @@ import streamlit as st
 # Oculta o menu superior e o rodapé do Streamlit
 st.set_page_config(page_title="Animes Choice Based on Data", page_icon="📊", layout="wide", initial_sidebar_state="collapsed")
 
-
-st.markdown(hide_menu_style, unsafe_allow_html=True)
-
 # Load sidebar for navigation
 selected_page = sidebar_navigation()
 
