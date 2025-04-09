@@ -5,5 +5,8 @@ from components.sidebar.style import style_css
 style_css()
 sidebar_navigation() 
 
-st.title("Dashboard")
-st.write("Bem vindo a pagina do dashborad!")
+st.title("Banco de Dados")
+st.write("Bem vindo a pagina!")
+
+
+st.write("Em breve...")

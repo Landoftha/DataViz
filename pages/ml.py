@@ -5,5 +5,8 @@ from components.sidebar.style import style_css
 style_css()
 sidebar_navigation() 
 
-st.title("Sobre o projeto")
-st.write("Bem vindo a pagina Sobre!")
+st.title("Machine Learning")
+st.write("Bem vindo a pagina!")
+
+
+st.write("Em breve...")
