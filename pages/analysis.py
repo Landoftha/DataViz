@@ -13,6 +13,31 @@ style_css()
 sidebar_navigation() 
 
 st.title("Hipóteses")
-st.write("Bem vindo a pagina!")
 
-st.write("Descrição do Projeto : Este projeto foi criado para ajudar a entender, na prática, como funcionam as teorias de hipóteses. A ideia é usar dados de empresas — reais ou simuladas — para formular perguntas (hipóteses) e testar se elas fazem sentido com base na estatística. Vamos passar por etapas como escolher os dados, preparar tudo para análise, aplicar testes estatísticos (como teste t ou ANOVA) e tirar conclusões a partir dos resultados. No final, tudo será reunido em um relatório que mostra o que foi aprendido e como aplicar isso no mundo real. É uma forma prática e organizada de fixar o conhecimento sobre hipóteses e análise de dados.")
+st.markdown("**Análise Exploratória com Geração de Hipóteses sobre Churn**")
+st.markdown("**Objetivo:** Entender os principais fatores que levam clientes de uma empresa de telecomunicações a cancelar seus serviços, por meio da análise de dados e geração de hipóteses.")
+st.markdown("**Contexto:** Utilizando o dataset de churn da IBM, que contém informações demográficas, contratuais e de uso dos serviços, este projeto simula um cenário de análise investigativa dentro de uma empresa preocupada com a retenção de clientes.")
+
+telco_df = load_data('.\data\TelcoCustomer\Telco-Customer-Churn.csv')
+
+st.subheader("Esse é o DataFrame a ser utilizado")
+st.dataframe((telco_df.head()))
+
+st.subheader("Análise das variáveis numéricas e categóricas")
+
+
+
+
+st.subheader("Identificação de possíveis outliers ou inconsistências")
+
+
+
+
+
+st.subheader("Visualizações para entender padrões de churn")
+
+
+
+
+
+st.subheader("Geração de Hipóteses")

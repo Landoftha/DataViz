@@ -5,9 +5,7 @@ def style_css():
     st.markdown(
         """
         <style>
-            [data-testid="stSidebar"] {
-                background-color: #181818 !important;
-            }
+           
             [data-testid="stSidebarNav"] ul {
                 padding: 10px;
             }
